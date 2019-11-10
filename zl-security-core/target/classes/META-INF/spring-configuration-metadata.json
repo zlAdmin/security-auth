@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zl.security.core.properties.ZlSecurityProperties",
+      "name": "zl.security",
+      "type": "com.zl.security.core.properties.ZlSecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zl.security.core.properties.ZlSecurityProperties",
+      "name": "zl.security.browser",
+      "type": "com.zl.security.core.properties.BrowserProperties"
+    }
+  ]
+}
