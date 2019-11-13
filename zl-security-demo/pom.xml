@@ -26,6 +26,7 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
+            <version>2.5</version>
         </dependency>
 
         <!-- 基于swagger生成RESTful的API文档开始 -->
@@ -40,6 +41,12 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
         </dependency>
         <!-- 基于swagger生成RESTful的API文档结束 -->
 

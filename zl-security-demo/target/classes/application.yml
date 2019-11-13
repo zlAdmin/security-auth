@@ -4,10 +4,10 @@ spring:
   application:
     name: security-auth
   datasource:
-    url: jdbc:mysql://localhost:3306/zl?serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
+    url: jdbc:mysql://localhost:3306/zl?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
     username: root
     password: 123456
-    driver-class: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   session:
     store-type: none
   redis:
@@ -28,7 +28,8 @@ spring:
 security:
   basic:
     enabled: true
-zl:
-  security:
-    browser:
-      loginPage: /demo-signIn.html
+#zl:
+#  security:
+#    browser:
+#      loginPage: /demo-signIn.html
+#      loginType: JSON
